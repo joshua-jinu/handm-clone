@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "HM Sans";
+    src: url("HM\ Sans\ Regular.ttf");
+}
+*{
+    font-family: "HM Sans";
+    font-weight: 100;
+}
+nav {
+    padding-bottom: 10px;
+}
+.logo {
+    padding-top: 20px;
+    fill: red;
+    width: 65px;
+}
+#searchhh{
+    position: absolute;
+    right: 10px;
+}
+.top, .bottom{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+.bottom {
+    justify-content: center;
+    padding: 30px 0px;
+}
+.left-top, .top-right, .middle {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    font-size: 15px;
+    align-items: center;
+}
+
+#top-row {
+    font-size: 13px;
+}
+
+.item {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.item div {
+    height: 1em;
+}
+
+.icon {
+    width: 20px;
+    padding: 4px;
+}
+
+.bottom-right {
+    border-bottom: 1px solid black;
+    padding-bottom: 0px;
+    height: 3em;
+    margin-right: 30px;
+}
+
+.searchbar {
+    height: 40px;
+    border: none;
+    width: 150px;
+}
+.searchbar:focus {
+    border: none;
+}
+.hero-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.hero {
+    width: 65%;
+}
+.hero-img {
+    width: 100%;
+}
+.sub {
+    justify-content: space-around;
+    width: 60%;
+    display: flex;
+    font-weight: 100;
+    flex-direction: row;
+    color: hsl(0, 0%, 20%);
+    margin-left: 20%;
+    padding: 3px 0px 15px 0px;
+}
+#btm-row {
+    font-size: 13px;
+}
+
+.hero h2 {
+    position: relative;
+    bottom: 35%;
+    color: white;
+    font-weight: 900;
+    font-size: 33px;
+    text-align: center;
+    text-shadow: 0px 3px 50px black;
+
+}
